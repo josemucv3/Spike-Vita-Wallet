@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon",
+  "watch": ["src", "tsconfig.json"],
+  "ext": "ts,json",
+  "ignore": ["dist"],
+  "exec": "npm run build --silent && node dist/index.js",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
+

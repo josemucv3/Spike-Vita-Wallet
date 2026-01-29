@@ -1,0 +1,27 @@
+{
+  "name": "vita-withdrawal-spike",
+  "version": "1.0.0",
+  "description": "Spike técnico para integración de retiros en Vita Wallet (Argentina) con TypeScript y Node.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "nodemon --config nodemon.json",
+    "dev:once": "npm run build && npm run start"
+  },
+  "keywords": [
+    "vita-wallet",
+    "withdrawal",
+    "spike",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.0.0"
+  }
+}
+
